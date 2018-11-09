@@ -10,7 +10,7 @@ const Transactions = ({ data }) => (
   <TransactionsWrapper>
     <Tabs tabs={tabs} />
     {data.map(i => (
-      <TransactionItem data={i} />
+      <TransactionItem data={i} key={i.id} />
     ))}
   </TransactionsWrapper>
 );

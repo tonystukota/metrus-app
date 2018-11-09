@@ -5,7 +5,7 @@ import { TabsContainer, Tab } from "./styled";
 const Transactions = ({ tabs }) => (
   <TabsContainer>
     {tabs.map(tab => (
-      <Tab>{tab}</Tab>
+      <Tab key={tab}>{tab}</Tab>
     ))}
   </TabsContainer>
 );
