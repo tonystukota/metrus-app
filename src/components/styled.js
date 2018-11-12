@@ -39,8 +39,37 @@ const TransactionsWrapper = styled.div`
 const TransactionItemWrapper = styled.div`
   margin: 1rem 1rem 0;
   display: grid;
-  grid-template-columns: 4rem auto 3rem;
+  grid-template-columns: 4rem auto 5rem;
+  align-items: center;
   box-shadow: 1px 2px 2px 0px rgba(235, 235, 235, 1);
+`;
+
+const DateTime = styled.p`
+  font-size: 14px;
+  margin: 1rem 1rem 0;
+`;
+
+const Status = styled.div`
+  display: grid;
+  grid-template-rows: auto auto;
+  font-size: 12px;
+`;
+
+const Amount = styled.div`
+  font-size: 16px;
+  text-align: right;
+  margin-right: 0.5rem;
+`;
+
+const Decimals = styled.span`
+  font-size: 12px;
+`;
+
+const Description = styled.div`
+  p {
+    margin: 0;
+    font-size: 10px;
+  }
 `;
 
 export {
@@ -50,5 +79,10 @@ export {
   TransactionsWrapper,
   TransactionItemWrapper,
   TabsContainer,
-  Tab
+  Tab,
+  DateTime,
+  Status,
+  Amount,
+  Decimals,
+  Description
 };

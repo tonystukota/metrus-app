@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>floating button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="26" cy="26" r="26"></circle>
+        <filter x="-26.9%" y="-26.9%" width="161.5%" height="161.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.223529412   0 0 0 0 0.709803922   0 0 0 0 0.290196078  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.851618304">
+        <g id="Card-issuing-Last-transaction-tab" transform="translate(-300.000000, -590.000000)">
+            <g id="floating-button" transform="translate(308.000000, 598.000000)">
+                <g id="bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#39B54A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="humburger" transform="translate(14.000000, 17.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5">
+                    <path d="M0.96,18.7368026 C10.7154111,18.7636174 18.1228848,18.7636174 23.1824211,18.7368026 C23.4549474,18.7353582 24,18.8574695 24,18.4287348 C24,18 23.8341969,18 23.1709845,18 C8.91633851,18.0270579 1.51267703,18.0405869 0.96,18.0405869 C0.130984456,18.0405869 2.13162821e-14,18.0405869 2.13162821e-14,18.4287348 C2.15231848e-14,18.8168826 0.711295337,18.7368026 0.96,18.7368026 Z" id="Path"></path>
+                    <path d="M0.96,9.73680257 C10.7154111,9.76361745 18.1228848,9.76361745 23.1824211,9.73680257 C23.4549474,9.73535822 24,9.85746951 24,9.42873476 C24,9 23.8341969,9 23.1709845,9 C8.91633851,9.02705793 1.51267703,9.04058689 0.96,9.04058689 C0.130984456,9.04058689 2.13162821e-14,9.04058689 2.13162821e-14,9.42873476 C2.15231848e-14,9.81688262 0.711295337,9.73680257 0.96,9.73680257 Z" id="Path"></path>
+                    <path d="M0.96,0.736802573 C10.7154111,0.763617448 18.1228848,0.763617448 23.1824211,0.736802573 C23.4549474,0.735358219 24,0.857469512 24,0.428734756 C24,0 23.8341969,2.59792188e-13 23.1709845,2.59792188e-13 C8.91633851,0.0270579268 1.51267703,0.0405868902 0.96,0.0405868902 C0.130984456,0.0405868902 2.13162821e-14,0.0405868902 2.13162821e-14,0.428734756 C2.15231848e-14,0.816882622 0.711295337,0.736802573 0.96,0.736802573 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
